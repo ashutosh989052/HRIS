@@ -1,0 +1,25 @@
+here are the instructions for running the HRIS Human Resource Information System:
+
+To run the HRIS Human Resource Information System, you need to have a virtual server installed on your computer. We recommend using XAMPP for this purpose. The source code for the system is available for free download, but we advise that you use it for educational purposes only.
+
+Once you have XAMPP running, follow these steps:
+
+1. Extract the downloaded file.
+2. Copy the main project folder.
+3. Paste the folder in the 'htdocs' directory of XAMPP.
+4. Next, you need to connect to the database:
+
+Open your web browser and go to the URL "http://localhost/phpmyadmin/".
+5. Click on the 'databases' tab.
+6. Create a database named "recruitment_db" & "hrm" and click on the 'import' tab.
+7. Click on the 'browse' button and select the "hrm.sql" file located in the 'Project' folder. Next, Click on the 'browse' button and select the "recruitment_db.sql" file located in the 'Project' folder.
+8. Click on the 'Go' button.
+9. Once the database is created, you can now run the system:
+
+10. Open your web browser and go to the URL "http://localhost/<folder_name>".
+11. To access the system as an admin, use the following credentials:
+
+Login Details for admin : 
+user: admin
+pass: admin123
+
